@@ -14,3 +14,6 @@ This project is for educational purposes for Mobile Application Development.
 
 ## Conclusion
 
+## Links
+
+https://developer.apple.com/documentation/swiftui/displaying-data-in-lists
