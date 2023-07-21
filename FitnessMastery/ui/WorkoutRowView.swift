@@ -14,6 +14,7 @@ struct WorkoutRowView: View {
     var body: some View{
         VStack(alignment: .leading, spacing: 3){
             Text(workout.title)
+                .font(.title2)
             ForEach(workout.sets){ set in
                 HStack(){
                     Text(String(set.amount)+"x")
@@ -21,8 +22,9 @@ struct WorkoutRowView: View {
                     Text(set.setName)
                 }
                 .font(.subheadline)
-                .foregroundColor(.secondary)
+                .foregroundColor(.primary)
             }
         }
+        .listRowBackground(Color.clear)
     }
 }

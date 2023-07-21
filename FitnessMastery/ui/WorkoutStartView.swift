@@ -7,12 +7,3 @@
 
 import SwiftUI
 
-struct WorkoutStartView: View {
-    var workout: Workout
-    
-    var body: some View {
-        VStack {
-            Text("Navigation works!")
-        }
-    }
-}
