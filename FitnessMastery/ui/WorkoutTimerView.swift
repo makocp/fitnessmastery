@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AudioToolbox
 
 struct WorkoutTimerView: View {
     
@@ -115,6 +116,7 @@ extension WorkoutTimerView {
         }
         
         func vibrate(){
+            AudioServicesPlayAlertSoundWithCompletion(SystemSoundID(kSystemSoundID_Vibrate), nil)
         }
         
     }
