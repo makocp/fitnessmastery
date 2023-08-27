@@ -7,7 +7,6 @@ This project is for educational purposes for Mobile Application Development. The
 ## Functionalities
 
 - [done] 1 UI e.g.: App-Icon, layout with whitespace, images
-- [done] 2 Saving-state, AppStorage
 - [done] 3 Interaction e.g.: touch, swipe, sliders, ... optional with animation
 - [done] 4 Navigation e.g.: tab view, popup, alerts
 - [done] 7 Actuators: vibration
