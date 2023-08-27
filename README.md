@@ -6,6 +6,13 @@ Marin Sekic (mako.codeproducer@gmail.com)
 This project is for educational purposes for Mobile Application Development. The purpose of this App is to track your workouts with a timer.
 ## Functionalities
 
+- [done] 1 UI e.g.: App-Icon, layout with whitespace, images
+- [done] 2 Saving-state, AppStorage
+- [done] 3 Interaction e.g.: touch, swipe, sliders, ... optional with animation
+- [done] 4 Navigation e.g.: tab view, popup, alerts
+- [done] 7 Actuators: vibration
+
+
 ## Learnings
 - Setup git project
     - Solve git "unrelated commit history error":
@@ -16,8 +23,6 @@ This project is for educational purposes for Mobile Application Development. The
 - NavigationView nested in TabView
     - Tabbar is shown after navigating to child view, fixed by `.toolbar(.hidden, for: .tabBar)` -> delay after going back (find a better solution)
     - Fixed: Wrap Tabview inside NavigationView (-> as root)
-
-## Conclusion
 
 ## Links
 
